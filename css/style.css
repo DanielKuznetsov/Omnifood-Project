@@ -1,0 +1,67 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM 
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400
+
+- Line heights:
+Default: 1
+ 
+--- 01 COLORS
+
+Brand color: #e67e22
+
+- Tints:
+- Shades:
+- Accents: 
+- Greys: #555 
+
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+
+--- 03 SHADOWS 
+
+--- 04 BORDER RADIUS
+
+--- 05 WHITE SPACE
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+
