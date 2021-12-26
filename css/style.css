@@ -237,7 +237,7 @@
   color: #333;
   border-radius: 1rem;
   font-weight: 600;
-}
+} 
 
 .meal-title {
   font-size: 2rem;
@@ -269,5 +269,24 @@
   width: 2.4rem; */
 
   font-size: 2.4rem;
+  color: #e67e22;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  font-size: 3rem;
   color: #e67e22;
 }
