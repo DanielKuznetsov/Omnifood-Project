@@ -30,7 +30,10 @@ Paragraph default: 1.6
 
 - Shades: #cf711f
 - Accents: 
-- Greys: #555 , #333
+- Greys: 
+#555
+#333
+#6f6f6f (lightest grey allowed on #fdf2e9)
 
 MAIN COLOR: #087f5b
 GREY COLOR: #343a40
