@@ -154,6 +154,7 @@
     visibility: hidden;
   }
 
+  /* Only when .nav-open is present, below listed styles will work*/
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
